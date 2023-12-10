@@ -51,7 +51,7 @@ public class ConsoleView {
 
     public String dateInput() {
         Scanner scanner = new Scanner(System.in);
-        String patternString = "^([1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.(19|20)\\d{2}$";
+        String patternString = "^([0-9]|[12][0-9]|3[01])\\.(0[0-9]|1[0-2])\\.(19|20)\\d{2}$";
 
         Pattern pattern = Pattern.compile(patternString);
 
