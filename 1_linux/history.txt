@@ -1,0 +1,39 @@
+
+cat > petanimals.txt
+
+cat > packanimals.txt
+
+cat petanimals.txt packanimals.txt > humanfriends.txt
+
+cat humanfriends.txt
+
+ls
+
+mkdir animals
+
+mv humanfriends.txt animals
+
+ls
+
+cd animals/
+
+ls
+
+apt policy mysql-server
+
+sudo nano /etc/apt/sources.list.d/mysql.list
+
+sudo apt update
+
+sudo apt install mysql-server
+
+wget http://archive.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-bin_2.4.7-1ubuntu4.22_i386.deb
+
+sudo dpkg -i apache2-bin_2.4.7-1ubuntu4.22_i386.deb
+
+sudo dpkg -r apache2
+
+nano  ~/.bash_history
+
+
+
